@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>ScoreKeeper</title>
+</head>
+
+<body>
+    <section id="container">
+        <img src="https://images.unsplash.com/photo-1531594896955-305cf81269f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            alt="Ball">
+        <p>Score Keeper</p>
+        <div class="score">
+            <p class="firstp"><span class="span1">0</span> to <span class="span2">0</span></p>
+            <p>Use the buttons below to keep score.</p>
+            <label for="select-score">Playing To</label>
+            <select name="max-score" id="select-score">
+                <option value="default">5</option>
+                <option value="second">6</option>
+                <option value="third">7</option>
+                <option value="fourth">8</option>
+                <option value="fifth">9</option>
+                <option value="sixth">10</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="player-one">+1 First Player</button>
+            <button id="player-two">+1 Second Player</button>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
