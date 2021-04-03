@@ -46,6 +46,9 @@ p + p {
     height: 6%;
     
 }
+#select-score{
+    border-radius:10px;
+}
 button {
     width: 33.33%;
     color:white;
